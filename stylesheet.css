@@ -647,7 +647,7 @@ margin:5px;
 
 
    }
-   @media  screen and (min-width: 800px ) and (max-width:1000px){
+   @media  screen and (min-width: 800px ) and (max-width:1200px){
     .section-4{
         width:80%;
            margin: auto;
