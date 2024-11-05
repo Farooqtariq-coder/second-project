@@ -41,7 +41,7 @@ body{
  padding-bottom: 60px;
 
    width: 100%;
- background-image: url("img/infinite-loop-01.jpg");
+ background-image: url("images/infinite-loop-01.jpg");
  background-attachment: fixed;
  background-size: cover;
 
@@ -51,7 +51,7 @@ body{
     padding-bottom: 60px;
    
       width: 100%;
-    background-image: url("img/infinite-loop-01.jpg");
+    background-image: url("images/infinite-loop-01.jpg");
     background-attachment: fixed;
     background-size: cover;
    
@@ -326,7 +326,7 @@ flex-wrap: wrap;
 .section-4{
     margin-top: 20px;
   
-    background-image: url("img/infinite-loop-02.jpg");
+    background-image: url("images/infinite-loop-02.jpg");
     background-attachment: fixed;
     background-size: cover;
     
