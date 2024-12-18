@@ -850,3 +850,10 @@ nav .menu-icon{
 .section-2-content p{
     margin-top: 2rem;
 }
+.section-5-content h1 {
+line-height: 2;
+
+}
+.section-5-content h1 span{
+    color: #247fb4;
+}
