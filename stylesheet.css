@@ -12,11 +12,11 @@ body {
   overflow-x: hidden;
 }
 header{
-    background-color: #043069;
+    background-color: none;
    
 }
 nav{
-    background-color: #043069;
+    background-color: none;
     
 }
 .nav-logo h1{
@@ -706,6 +706,7 @@ color: #2463b4;
         bottom: 0;
     }
   }
+  
   @media screen and (max-width:990px){
       .section-header{
           max-width: 95%;
@@ -714,6 +715,7 @@ color: #2463b4;
           justify-content: space-between;
           gap: 10rem;
           padding: 1rem 1rem;
+          align-items: center;
       }
       .section-header .section-content{
           max-width: 350px;
@@ -856,4 +858,111 @@ line-height: 2;
 }
 .section-5-content h1 span{
     color: #247fb4;
+}
+header{
+        
+  
+}
+
+header{
+        
+    
+    background-color: #001e4b; 
+   }
+
+@media screen and (min-width:991px){
+    header{
+        
+        background-image: url('images/hero-bg.png');
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+            
+    background-color: #ffffff; 
+    }
+   
+    nav{
+        background-color: none;
+        
+    }
+}
+@media screen and (min-width:1050px){
+    header{
+        
+        background-image: url('images/hero-bg.png');
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+            
+    background-color: #ffffff; 
+    }
+   
+}
+
+@media screen and (min-width:991px){
+    .section-header{
+        max-width: 95%;
+        max-width: 1200px;
+        margin:auto;
+        justify-content: center;
+        justify-content: space-between;
+        gap: 10rem;
+        padding: 1rem 1rem;
+        align-items: center;
+        margin-top: 12%;
+    }
+}
+@media screen and (min-width:1400px){
+    .header-section-img img{
+        height: 400px;
+        width: 45%;
+        position: absolute;
+        animation: topmove 2s linear infinite alternate;
+    }
+    @keyframes topmove {
+        0% {
+           left: 50%;
+            right: 0;
+            bottom: 0;
+            transform: translateY(-5%);
+    
+        }
+        100% {
+            left: 50%;
+            transform: translateY(-15%);
+            right: 0;
+            bottom: 0;
+        }
+      }
+    header{
+        
+        background-image: url('images/hero-bg.png');
+        background-size: cover;
+        width: 100%;
+        height: 1200px;
+            
+    background-color: #ffffff; 
+    }
+    .section-header{
+        max-width: 95%;
+        max-width: 1200px;
+        margin:auto;
+        justify-content: center;
+        justify-content: space-between;
+        gap: 10rem;
+        padding: 1rem 1rem;
+        align-items: center;
+        margin-top: 25%;
+    }
+    .section-content{
+        max-width: 550px;
+    }
+    .section-content h1{
+        margin-right: 3rem;
+        font-weight: 700;
+    }
+}
+.section-responsive-nav{
+    max-width: 100%;
+    padding: 1rem 2rem;
 }
