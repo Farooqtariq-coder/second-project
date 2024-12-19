@@ -864,11 +864,6 @@ header{
   
 }
 
-header{
-        
-    
-    background-color: #001e4b; 
-   }
 
 @media screen and (min-width:991px){
     header{
@@ -966,3 +961,12 @@ header{
     max-width: 100%;
     padding: 1rem 2rem;
 }
+
+@media screen and (max-width:990px){
+
+
+header{
+        
+    
+    background-color: #160c72; 
+   }}
