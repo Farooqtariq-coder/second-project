@@ -276,15 +276,17 @@ Read More
         </div>
     </div>
 </div>
-<div class="section-5 ">
+<div class="section-5 section-5-responsive ">
     <div class="section-5-content">
         <h1>What says our <span>Customers</span></h1>
     </div>
-    <div class="section-5-grid">
-        <div class="section-5-grid-card">
+    <div class="swiper-padding-class">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide">
             
             <div class="section-5-content-card">
-                <img src="images/client1.jpg" alt="">
+                <img src="images/client2.jpg" alt="">
                 <div class="admin-class"><h4>Admin</h4>
                 <a>Good Website</a>
                 <p>It is a good website It is a good website It is a good websiteIt is a good websiteIt is a good websiteIt is a good websiteIt is a good website
@@ -292,10 +294,10 @@ Read More
                 </p></div>
               
 
-            </div>
+         
            
-        </div>
-        <div class="section-5-grid-card">
+        </div></div>
+        <div class="swiper-slide">
             
             <div class="section-5-content-card">
                 <img src="images/client1.jpg" alt="">
@@ -306,16 +308,47 @@ Read More
                 </p></div>
               
 
-            </div>
-          
-        </div>
-      
-    </div>
-    <div class="section-5-content-buttons">
-        <i class="ri-arrow-left-line"></i>
-        <i class="ri-arrow-right-line"></i>
+         
+           
+        </div></div>
+          <div class="swiper-slide"> 
+            
+            <div class="section-5-content-card">
+                <img src="images/client2.jpg" alt="">
+                <div class="admin-class"><h4>Admin</h4>
+                <a>Good Website</a>
+                <p>It is a good website It is a good website It is a good websiteIt is a good websiteIt is a good websiteIt is a good websiteIt is a good website
+
+                </p></div>
+              
+
+           
+        </div></div>
+        <div class="swiper-slide">
+            
+            <div class="section-5-content-card">
+                <img src="images/client1.jpg" alt="">
+                <div class="admin-class"><h4>Admin</h4>
+                <a>Good Website</a>
+                <p>It is a good website It is a good website It is a good websiteIt is a good websiteIt is a good websiteIt is a good websiteIt is a good website
+
+                </p></div>
+              
+
+         
+           
+        </div></div>
+     
        
+        </div>
+        <div class="btn-swiper-flex">
+            <div class="swiper-button-prev"><i class="ri-arrow-left-s-line"></i></div>
+        <div class="swiper-button-next"><i class="ri-arrow-right-s-line"></i></div>
+        
     </div>
+    
+</div>
+</div>
 </div>
 <div class="footer-section ">
     <div class="section-responsive">
@@ -367,16 +400,33 @@ Read More
     <a href="">@ All Rights Reserved By Programmer 2024 .</a></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script >
-    const menubtn = document.getElementById('menu-btn');
-const navlinks = document.getElementById('nav-links');
-const menubtnicon = document.querySelector("i");
-menubtn.addEventListener("click",(e)=>{
-navlinks.classList.toggle("open");
-const isopen = navlinks.classList.contains("open");
-menubtnicon.setAttribute("class", isopen ? "ri-close-line": "ri-menu-line");
-
-})
-</script>
+<script src="main.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1, 
+      slidesPerGroup: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+  
+    600: {
+      slidesPerView: 2, 
+      slidesPerGroup: 1, 
+    },},
+    autoplay: {
+    delay: 2000, 
+    disableOnInteraction: false,
+  },
+    });
+    
+  </script>
 </body>
 </html>
