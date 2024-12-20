@@ -1106,3 +1106,47 @@ margin: auto;
             padding: 1rem 1rem;
         }
     }
+
+    .grid-icon{
+        display: flex;
+        justify-content: center;
+    }
+  
+    .grid-icon img{
+
+       
+        width: 70px;
+        height: 70px;
+    }
+    .section-3-card-icon{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    .section-3-grid-card{
+        margin-top: 0rem;
+    }
+    .section-3-card-icon .grid-icon{
+        
+        border: 5px solid  #04152e;
+       border-radius: 50%;
+       padding: 1.5rem;
+      
+
+    }
+    .section-3-card-icon .grid-icon img{
+        width: 60px;
+        height: 60px;
+    } 
+   .section-3-content{
+       margin-top: 1rem;
+       margin-bottom: 1.5rem;
+   }
+   .section-4-icons i{
+       cursor: pointer;
+       font-size: 1.5rem;
+   }
+   .section-4-icons i:hover{
+ color: #00bbf0;
+}
