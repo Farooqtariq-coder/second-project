@@ -84,7 +84,7 @@ nav{
 
 .section-header .btn button{
     margin-top: 1rem;
-    background-color: #007fa4;
+    background-color: #00bbf0;
     color: #ffffff;
     border: none;
     padding: 0.85rem 2.7rem;
@@ -131,7 +131,7 @@ img{
     text-align: center;
 }
 .section-1-content h1 span{
-    color: #007fa4;
+    color: #00bbf0;
 }
 .section-1-content p{
     text-align: center;
@@ -186,7 +186,7 @@ justify-content: center;
     text-align: center;
 }
 .section-1 .section-1-button button{
-    background-color: #085870;
+    background-color: #00bbf0;
     padding: 1rem 2.5rem;
     border: none;
     color: white;
@@ -203,7 +203,7 @@ justify-content: center;
 }
 .section-2{
     width: 100%;
-    background-color: #043069;
+    background-color: #00204a;
 
     margin: 1rem 0rem;
 }
@@ -217,15 +217,16 @@ justify-content: center;
     line-height: 1.5;
 }
 .section-2-content h1 span{
-    color: #316ab6;
+    color: #00bbf0;
 }
 .section-2-content p{
-    line-height: 1.5;
+    line-height: 1;
     color: white;
     text-align: center;
+    margin: 0rem;
 }
 .section-2-grid{
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .section-2-grid{
     width: 100%;
@@ -257,7 +258,7 @@ justify-content: center;
 }
 .section-2-btn button{
     margin: 1.5rem 0rem;
-    background-color: #72c8f0;
+    background-color: #00bbf0;
     color: white;
     padding: 1rem 3rem;
     border: none;
@@ -270,7 +271,7 @@ justify-content: center;
 .section-3-button button{
     justify-content: center;
     margin: 1.5rem 0rem;
-    background-color: #72c8f0;
+    background-color: #00bbf0;
     color: white;
     padding: 1rem 3rem;
     border: none;
@@ -297,7 +298,7 @@ justify-content: center;
     gap: 3rem;
 }
 .section-3-content h1 span{
-    color: #043069;
+ color: #00bbf0;
 }
 .section-3-grid-card{
     padding: 0.1rem;
@@ -333,7 +334,7 @@ justify-content: center;
     color: #f5f7f8;
 }
 .section-4-content h1 span{
-color: #2463b4;
+    color: #00bbf0;
 }
 .section-4-grid{
     display: grid;
@@ -344,14 +345,14 @@ color: #2463b4;
     border: 5px solid white;
     height: 120px;
     width: 120px;
-    margin: 2rem 0rem;
+    margin: 1.5rem 0rem;
    
 }
 
 .section-4-grid-card h3{
-    color: #3177d3;
+    color: #00bbf0;
     font-weight: 600;
-    margin: 1rem 0rem;
+    margin: 0rem 0rem;
 }
 .section-4-grid-card a{
     color: white;
@@ -376,7 +377,7 @@ color: #2463b4;
     
 }
 .section-4-icons i{
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: white;
 }
 .section-5{
@@ -545,7 +546,7 @@ color: #2463b4;
     gap: 1rem;
 }
 .footer-list-4 button{
-    background-color: #54d6e7;
+    background-color: #00bbf0;
     border: none;
     padding:0.8rem ;
     color: #f5f7f8;
@@ -625,7 +626,7 @@ color: #2463b4;
         max-width: 380px;
     }
     .section-2-card-img-class{
-        max-width: 400px;
+        max-width: 470px;
     }
 }
 @media screen and (min-width:990px){
@@ -641,7 +642,7 @@ color: #2463b4;
         max-width: 450px;
     }
     .section-2-card-img-class{
-        max-width: 400px;
+        max-width: 470px;
     }
 }
 @media screen and (max-width:770px){
@@ -860,7 +861,7 @@ nav .menu-icon{
     line-height: 2;
 } 
 .section-2-content p{
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .section-5-content h1 {
     margin: 2.5rem 0rem;
@@ -982,7 +983,7 @@ header{
 header{
         
     
-    background-color: #160c72; 
+    background: linear-gradient(130deg, #231a6f, #0f054c);
    }}
    .btn-swiper-flex{
 
