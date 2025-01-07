@@ -22,7 +22,7 @@
            
            
             </div>
-          
+          <div class="nav__toggle">
 
             <ul class="nav__links"id="nav-links">
 <li><a href="#">Home</a></li>
@@ -31,7 +31,14 @@
 <li><a href="#">Pages</a></li>
 <li><a href="#">Contact</a></li>
 
-            </ul>        
+            </ul> 
+        
+        <div class="nav__toggle_icon">
+            <i class="ri-headphone-fill"></i>
+            <a >+012 345 6789</a>
+        </div>
+        
+        </div>     
        </nav>
       
    </header> 
@@ -584,20 +591,17 @@ Read More
       },
     });
    
-    const menuBtn = document.getElementById("menu-btn");
+const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 menuBtn.addEventListener("click", (e) => {
 navLinks.classList.toggle("open");
 const isOpen = navLinks.classList.contains("open");
 menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
-
-
 });
 navLinks.addEventListener("click", (e) => {
 navLinks.classList.remove("open");
 menuBtnIcon.setAttribute("class", "ri-menu-line");
-
 })
 
   </script>
