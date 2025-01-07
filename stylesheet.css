@@ -1773,11 +1773,15 @@ margin: auto;
 @media screen and (max-width:410px){
     .footer-grid-button-flex{
         flex-direction: column;
+padding: 0;
     }
     .footer-grid-button-flex .btn-button{
         width: 100%;
+        padding: 0;
     }
     .btn-button button{
         width: 100%;
+        padding: 0;
+     
     }
 }
