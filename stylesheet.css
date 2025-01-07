@@ -92,6 +92,11 @@ nav{
     z-index: -1;
     
 }
+.section-3-card-1-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 .nav__links li a{
     color: #060315;
 }
@@ -809,6 +814,14 @@ font-size: 1.3rem;
 .footer-grid-card h3{
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.footer-grid-button-flex{
+    white-space: nowrap;
+    width: 100%;
+
+}
+.btn-button{
+    margin-right: 2rem;
 }
 
 @media screen and (min-width:580px){
@@ -1756,4 +1769,15 @@ margin: auto;
 #nav-links li a{
     color: #060315;
     cursor: pointer;
+}
+@media screen and (max-width:410px){
+    .footer-grid-button-flex{
+        flex-direction: column;
+    }
+    .footer-grid-button-flex .btn-button{
+        width: 100%;
+    }
+    .btn-button button{
+        width: 100%;
+    }
 }
